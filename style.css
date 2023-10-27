@@ -1,374 +1,360 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .bgContainer {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .bgImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .heroBgOverlay {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(2, 2, 2, 0.0);
-    background-image: linear-gradient(to top,
-            rgba(0, 0, 0, 0.8) 0,
-            rgba(0, 0, 0, 0) 80%,
-            rgba(0, 0, 0, 0.8) 100%);
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(2, 2, 2, 0);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 
 .navClass {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    /* justify-content:space-evenly; */
-    gap: 40%;
-    z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  /* justify-content:space-evenly; */
+  gap: 40%;
+  z-index: 10;
 }
 
 .leftNav img {
-    /* filter: blur(8px); */
-    margin-top: 0px;
-    padding: 0px 140px;
-    height: 115px;
-    width: 200px;
+  /* filter: blur(8px); */
+  margin-top: 0px;
+  padding: 0px 140px;
+  height: 115px;
+  width: 200px;
 }
 
 .rightNav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 23px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 23px;
 }
 
 .language select {
-    height: 30px;
-    width: 100px;
-    font-size: 17px;
-    padding: 1px 8px;
-    border-radius: 4px;
+  height: 30px;
+  width: 100px;
+  font-size: 17px;
+  padding: 1px 8px;
+  border-radius: 4px;
 
-    background-color: rgb(43, 39, 39);
+  background-color: rgb(43, 39, 39);
 }
 
 .language:hover {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
-
 .sign button {
-    height: 33px;
-    width: 70px;
-    padding: 1px 8px;
-    border-radius: 4px;
-    font-size: 15px;
-    cursor: pointer;
-    background-color: red;
-    font-weight: 700;
+  height: 33px;
+  width: 70px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: red;
+  font-weight: 700;
 }
 
 .aboutContent {
-    margin-top: 150px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    z-index: 9;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: 9;
+  position: absolute;
+  top: 20%;
+  left: 20%;
 }
 
-
 .second {
-    margin: 20px;
+  margin: 20px;
 }
 
 .first h1 {
-    font-size: 40px;
-    font-weight: 900;
-
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .second h2 {
-    font-size: 26px;
-    font-weight: 200;
-
+  font-size: 26px;
+  font-weight: 200;
 }
 
 .third h2 {
-    font-size: 20px;
-    font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .email {
-
-    margin: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 #getEmail {
-    height: 8vh;
-    width: 400px;
-    background-color: rgb(9, 9, 9, 0.2);
-    border: 1px solid rgb(219, 197, 197, 0.3);
-    border-radius: 4px;
-    color: white;
-    padding-left: 20px;
+  height: 8vh;
+  width: 400px;
+  background-color: rgb(9, 9, 9, 0.2);
+  border: 1px solid rgb(219, 197, 197, 0.3);
+  border-radius: 4px;
+  color: white;
+  padding-left: 20px;
 }
 
 label {
-    height: 9vh;
-    width: 300px;
-    padding: 10px 15px 16px;
-    margin-left: 6px;
-    background-color: red;
-    /* border: 2px solid black; */
-    border-radius: 4px;
-    font-size: 1.5rem;
-    font-weight: 550;
+  height: 9vh;
+  width: 300px;
+  padding: 10px 15px 16px;
+  margin-left: 6px;
+  background-color: red;
+  /* border: 2px solid black; */
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
 .division {
-    height: 1.7vh;
-    width: 100%;
-    background-color: rgb(32, 32, 32, 0.5);
+  height: 1.7vh;
+  width: 100%;
+  background-color: rgb(32, 32, 32, 0.5);
 }
 
 .page2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    padding: 10vh 0px;
-    background-color: rgb(9, 8, 8);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 0px;
+  background-color: rgb(9, 8, 8);
+  z-index: 0;
 }
 
-.video {
-    position: relative;
+.page2 .video {
+  position: relative;
+  z-index: 1;
 }
 
-.videobg {
-    height: 60vh;
-    width: 78%;
-    margin-right: 10vw;
-    /* position: absolute; */
+.video .video1 {
+  height: 32.58vh;
+  position: absolute;
+  right: 15.7vw;
+  top: 12.4vh;
+  z-index: -1;
 }
 
-.video1 {
-    height: 32.58vh;
-    z-index: 0;
-    position: absolute;
-    right: 15.30vw;
-    top: 12.70vh;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png);
+.videobgImg img {
+  height: 60vh;
+  width: 78%;
+  margin-right: 10vw;
+  z-index: 3;
 }
 
 .page2Text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 100px;
 }
 
 .firstText {
-    font-size: 45px;
-    font-weight: 800;
-    text-align: center;
-    margin: 20px;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px;
 }
 
 .secText,
 .thirdText {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .page3,
 .page5 {
-    display: flex;
-    justify-content: flex-start;
-    background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
 }
 
 .leftImg {
-    position: relative;
-
+  position: relative;
 }
-
 
 .img31,
 .img51 {
-
-    height: 70%;
-    margin: 5vh 1vh 1vh 8vw;
+  height: 70%;
+  margin: 5vh 1vh 1vh 8vw;
 }
 
 .img32 {
-    position: absolute;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 40px;
-    padding: 5px 10px;
-    border: 2px solid rgb(214, 212, 212);
-    border-radius: 20px;
-    top: 40vh;
-    ;
-    left: 15vw;
-    background-color: black;
-
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 5px 10px;
+  border: 2px solid rgb(214, 212, 212);
+  border-radius: 20px;
+  top: 40vh;
+  left: 15vw;
+  background-color: black;
 }
 
 .img32 img {
-    /* position: absolute; */
-    height: 15vh;
-    /* margin-right: 80px; */
+  /* position: absolute; */
+  height: 15vh;
+  /* margin-right: 80px; */
 }
 
-
 .downloadSymbol {
-    height: 20px;
-    width: 20px;
-    border: 2px solid blue;
-    border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  border: 2px solid blue;
+  border-radius: 50%;
 }
 
 .page3Text,
 .right5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 10vw;
 }
 
 .text31,
 .text41,
 .text51,
 .text61 {
-    font-size: 40px;
-    font-weight: 800;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .text32,
 .text42,
 .text52,
 .text62 {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .page4 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-
-}
-
-
-
-.img41 img {
-    height: 400px;
-    background: black;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  z-index: 0;
 }
 
 .rightImgVideo {
-    position: relative;
+  position: relative;
+  padding: 1px;
+  z-index: 1;
+}
 
+.video41 {
+  position: absolute;
+  top: 5.7vh;
+  right: 5.8vw;
+  z-index: -1;
 }
 
 .video41 video {
-    position: absolute;
-    top: 6vh;
-    right: 6.70vw;
-    width: 360px;
-    height: 180px;
+  width: 365px;
+  height: 185px;
+  z-index: 3;
+}
 
+.img41 img {
+  height: 400px;
+  z-index: 2;
 }
 
 .page6 {
-    background-color: black;
-
+  background-color: black;
 }
-.text61{
-    text-align: center;
-    padding: 10vh 2vw 4vh 2vw;
+.text61 {
+  text-align: center;
+  padding: 10vh 2vw 4vh 2vw;
 }
 .que {
-    padding: 2vh 4vw;
-    margin: 0 10vw 1.5vh 10vw;
-    font-size: 25px;
-    height: 45px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(52, 47, 47);
+  padding: 2vh 4vw;
+  margin: 0 10vw 1.5vh 10vw;
+  font-size: 25px;
+  height: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(52, 47, 47);
 }
-
 
 .posSign {
-    font-size: 45px;
-    font-weight: 400;
+  font-size: 45px;
+  font-weight: 400;
 }
 
-.subscription{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10vh;
-    padding-bottom: 5vh;
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  padding-bottom: 5vh;
 }
 
-.page7{
-    background-color: black;
-    padding-left : 12vh;
+.page7 {
+  background-color: black;
+  padding-left: 12vh;
 }
 
-.text71{
-    
-    font-size: 18px;
-    padding-top:5vh;
+.text71 {
+  font-size: 18px;
+  padding-top: 5vh;
 }
 
-.dirLink{
-    
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
+.dirLink {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-.dirLink a{
-   
-    padding: 2vh 0px;
-    font-weight: 400;
-    color: rgb(223, 214, 198);
-    /* margin-left: 30px; */
-    /* width: fit-content; */
+.dirLink a {
+  padding: 2vh 0px;
+  font-weight: 400;
+  color: rgb(223, 214, 198);
+  /* margin-left: 30px; */
+  /* width: fit-content; */
 }
 
-.netInd{
-    margin-top: 4vh;
-    padding-bottom: 10vh;
+.netInd {
+  margin-top: 4vh;
+  padding-bottom: 10vh;
 }
